@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-}
+const nextJsonConfig = require('./next.dependency.json')
+
+const nextConfig = nextJsonConfig
 
 module.exports = nextConfig

@@ -23,7 +23,7 @@ const Header = () => {
             <header className={`${styles.header}`}>
                 {/* <Logo /> */}
                 <div className={styles.logo}>
-                    <Image src="/next.svg" alt="logo" fill />
+                    <Image src="/next.svg" alt="logo" fill priority={true} />
                 </div>
 
                 {/* desktop navigation */}

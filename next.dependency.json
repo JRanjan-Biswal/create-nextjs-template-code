@@ -1,0 +1,6 @@
+{
+    "reactStrictMode": true,
+    "env": {
+        "key": "testing environment"
+    }
+}
