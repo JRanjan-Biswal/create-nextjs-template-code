@@ -1,6 +1,14 @@
 /** @type {import('next').NextConfig} */
-const nextJsonConfig = require('./next.dependency.json')
+const path = require('path')
 
-const nextConfig = nextJsonConfig
+const nextConfig = {
+  reactStrictMode: true,
+  env: {
+    key: "testing env"
+  },
+  sassOptions: {
+    includePaths: [path.join("__dirname", "styles")],
+  },
+}
 
 module.exports = nextConfig
