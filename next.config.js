@@ -7,3 +7,7 @@ const nextConfig = {
     key: "testing env"
   },
 
+};
+
+module.exports = nextConfig;
+
