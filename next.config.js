@@ -6,6 +6,4 @@ const nextConfig = {
   env: {
     key: "testing env"
   },
-}
 
-module.exports = nextConfig
